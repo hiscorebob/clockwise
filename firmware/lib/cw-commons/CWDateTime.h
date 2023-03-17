@@ -18,6 +18,7 @@ public:
 
   char *getHour(const char *format);
   char *getMinute(const char *format);
+  int getYear();
   int getHour();
   int getMinute();
   int getSecond();

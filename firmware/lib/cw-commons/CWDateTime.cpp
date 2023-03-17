@@ -65,6 +65,10 @@ int CWDateTime::getMonth()
 {
   return myTZ.dateTime("m").toInt();
 }
+int CWDateTime::getYear()
+{
+  return myTZ.dateTime("y").toInt();
+}
 int CWDateTime::getWeekday() 
 {
   return myTZ.dateTime("w").toInt()-1;
